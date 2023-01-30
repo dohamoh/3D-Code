@@ -1,0 +1,53 @@
+<nav  class="navbar navbar-light navbar-expand-md bg-body-tertiary fixed-top px-md-3">
+  <!-- [ngClass]="onScroll" -->
+  <div class="container-fluid">
+    <a routerLink="/home" class="navbar-brand ms-5 logo"></a>
+    <button
+      class="navbar-toggler bg-MCpurple"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNavDropdown">
+      <ul class="navbar-nav justify-content-between">
+        <li class="nav-item">
+          <a class="nav-link _MCpurple active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link _MCpurple" routerLink="/services">Our services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link _MCpurple" href="#">Our client</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link _MCpurple"routerLink="/contactUs">Contact us</a>
+        </li>
+        <div class="line ms-md-2 bg-MCpurple"></div>
+        <div class="langOPi _MCpurple d-flex ms-md-2 nav-link">
+          <!-- border-start pb-0 -->
+          <p class="cursorPointer">EN</p>
+        </div>
+        <div class="langOPi _MCpurple d-flex nav-link px-1">
+          <!-- border-start pb-0 -->
+          <p class="cursorPointer">TR</p>
+        </div>
+        <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>

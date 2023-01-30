@@ -1,0 +1,27 @@
+footer {
+  margin-top: 6rem;
+}
+
+footer h3 {
+  font-weight: 600 !important;
+  color: #7969cb;
+}
+
+footer .contactUs ul {
+  line-height: 3 !important;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  footer .contactUs {
+    padding-left: 6rem;
+  }
+  footer .contactUs ul {
+    line-height: 3 !important;
+  }
+}
+
+p:hover,
+li:hover {
+  color: #a86ab5;
+}
+/*# sourceMappingURL=footer.component.css.map */

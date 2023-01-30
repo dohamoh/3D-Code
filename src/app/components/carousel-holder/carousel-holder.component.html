@@ -1,0 +1,10 @@
+<div class="my-md-5 w-75 mx-auto" >
+  <owl-carousel-o class="" [options]="customOptions" >
+    <ng-template carouselSlide *ngFor="let item of ourWork let i = index" >
+      <div class="slide">
+        <!-- [ngStyle]="{'background-image':item.imageUrl} if i have background-image not image tag"  -->
+        <img class="imgCenter" src="{{item.imgUrl}}" alt="img1">
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+</div>

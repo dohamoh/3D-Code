@@ -1,0 +1,25 @@
+nav .line {
+  height: 2.3rem;
+  width: 0.13rem;
+}
+
+.navbar-light .navbar-nav {
+  --bs-nav-link-hover-color: rgb( 255,255,255) !important;
+}
+
+.active {
+  color: #7969cb !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.logo {
+  height: 3rem;
+  width: 5rem;
+  background-image: url("../../../assets/Project/2/1-removebg-preview-logo-edit.png");
+  background-position: center;
+  background-size: 100%;
+}
+/*# sourceMappingURL=nav-bar.component.css.map */

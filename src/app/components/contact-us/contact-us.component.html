@@ -1,0 +1,111 @@
+<div class="contactUs mt-5">
+  <div class="d-flex my-5">
+    <h3 class="text-center my-md-5 _MCbluePurple p-0 w-100 position-absolute fw-medium">
+      Have Any Questions?
+    </h3>
+    <p class="backText text-center position-relative fw-semibold w-100 mt-5">
+      Contact us
+    </p>
+  </div>
+
+  <div class="contact my-3 bg-light p-5" style="z-index: 9 !important">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6">
+        <h2 class="mb-5 fs-3 position-relative">Send Message Us</h2>
+        <div class="col-12 p-3 pt-0">
+          <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+          <input
+            class="mb-4 w-100 border-0 border-bottom p-2 rounded-3"
+            type="text"
+            required="required"
+            placeholder="write Your full Name"
+            formControlName="name"
+            name="name"
+            [(ngModel)]="FormData.name"
+            data-error="full_name is required."/>
+            <!-- #name="ngModel" -->
+          <input
+            class="mb-4 w-100 border-0 border-bottom p-2 rounded-3"
+            type="email"
+            required="required"
+            placeholder="Your Email"
+            formControlName="Email"
+            name="Email"
+            data-error="Email is required."/>
+          <input
+            class="mb-4 w-100 border-0 border-bottom p-2 rounded-3"
+            type="number"
+            required="required"
+            placeholder="Phone Number"
+            formControlName="phone"
+            name="phone"
+            data-error="PhoneNum is required."/>
+          <textarea
+            class="mb-4 w-100 border-0 border-bottom p-2 rounded-3"
+            name="desc"
+            formControlName="desc"
+            placeholder="Your Message"
+            id=""
+            rows="4">
+          </textarea>
+          <button class="w-50 btn bg-MCbluePurple text-white" [ngClass]="!FormData.valid?'invalidBtn':'sendBtn'">
+            Send Message
+          </button>
+          </form>
+        </div>
+      </div>
+      <!-- ------------------get in touch-------------- -->
+      <div class="col-sm-12 col-lg-6 ps-lg-0 pt-lg-0 ps-3 pt-4">
+        <h2 class="mb-5 fs-3 position-relative">Get in Touch</h2>
+        <div>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam
+            magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+            mollitia inventore?
+          </p>
+          <ul class="ms-0 fa-ul list-unstyled text-decoration-none">
+            <li>
+              <i class="bi bi-geo-alt me-3"></i>329 WASHINGTON ST BOSTON, MA
+              02108
+            </li>
+            <li><i class="bi bi-telephone me-3"></i>(617) 557-0089</li>
+            <li><i class="bi bi-envelope-at me-3"></i>contact@example.com</li>
+          </ul>
+          <!-- <div class=" d-flex">
+            <div><i class=" fs-1 me-3 fab fa-facebook-square"></i></div>
+            <div><i class=" fs-1 me-3 fab fa-instagram-square"></i></div>
+            <div><i class=" fs-1 me-3 fab fa-twitter-square"></i></div>
+            <div><i class=" fs-1 me-3 fab fa-linkedin"></i></div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+
+<!--
+<div class="container">
+  <h2 class="text-center mb-5">Angular Contact Form Hosted On FireBase</h2>
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+  <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)"><div class="form-group">
+  <label for="Email">Email</label>
+  <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter email"formControlName="Email">
+  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+  <label for="fullname">Full Name</label>
+  <input type="text" class="form-control" name="Fullname" placeholder="Full Name" formControlName="Fullname">
+  </div>
+  <div class="form-group">
+  <label for="comment">Comment</label>
+  <textarea class="form-control" formControlName="Comment" name="Comment">
+  </textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="!FormData.valid">Submit</button>
+  </form>
+  </div>
+  </div>
+  </div> -->

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,CAAA;EACD,MAAM,EAAE,KAAK;CACd;;AACD,AAAA,QAAQ,CAAC;EACP,WAAW,EAAE,IAAI;CAIlB;;AALD,AAEI,QAFI,CAEJ,SAAS,EAFb,QAAQ,CAEQ,SAAS,CAAA;EACnB,KAAK,EAAE,gBAAgB;CACxB",
+    "sources": [
+        "carousel-holder.component.scss"
+    ],
+    "names": [],
+    "file": "carousel-holder.component.css"
+}

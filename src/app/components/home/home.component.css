@@ -1,0 +1,48 @@
+header {
+  background-image: linear-gradient(135deg, #37588c, #3b3267, #673f70);
+  background-color: #1e162e;
+}
+
+header .headText button {
+  border: solid 2px #a86ab5 !important;
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+  header {
+    background-image: url(../../../assets/Project/2/2.jpeg);
+    background-size: 100%;
+  }
+  header .headImg {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    background-image: url(../../../assets/Project/2/3.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  header .headImg {
+    display: none !important;
+  }
+  header .headText {
+    display: none;
+  }
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin-top: 4.5rem !important;
+  margin-bottom: 4.5rem !important;
+  z-index: 0;
+}
+
+.backText {
+  z-index: -1;
+  font-size: 7rem;
+  color: #abb2b8;
+  opacity: 30%;
+  line-height: 1;
+}
+/*# sourceMappingURL=home.component.css.map */

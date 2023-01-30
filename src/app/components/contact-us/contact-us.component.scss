@@ -1,0 +1,28 @@
+.contactUs{
+  h3 {
+    font-size: 3.3rem;
+    margin-top: 4.5rem !important;
+    margin-bottom: 4.5rem !important;
+    z-index: 0;
+  }
+  .backText {
+    z-index: -1;
+    font-size: 7rem;
+    color: #abb2b8;
+    opacity: 30%;
+    line-height: 1;
+  }
+  .sendBtn:hover {
+    color: #7969cb !important;
+    border: solid #7969cb 1px;
+    font-weight: 500 !important;
+  }
+  .invalidBtn{
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  input,textarea:focus {
+    outline: none !important;
+  }
+
+}

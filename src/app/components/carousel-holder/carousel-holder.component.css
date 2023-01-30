@@ -1,0 +1,12 @@
+img {
+  height: 25rem;
+}
+
+.owl-nav {
+  margin-left: 4rem;
+}
+
+.owl-nav .owl-prev, .owl-nav .owl-next {
+  color: black !important;
+}
+/*# sourceMappingURL=carousel-holder.component.css.map */

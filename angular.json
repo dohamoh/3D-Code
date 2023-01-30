@@ -30,9 +30,16 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel.scss",
+              "node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default.scss",
+              "node_modules/ngx-owl-carousel-o/lib/styles/scss/_animate.scss",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {

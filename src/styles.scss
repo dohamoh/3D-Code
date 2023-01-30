@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+body {
+  // background-color: lightgray;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+._MCpurple {
+  color: #a86ab5;
+}
+._MCbluePurple {
+  color: #7969cb;
+}
+._MClight {
+  color: #bababa;
+}
+.bg-MCbluePurple {
+  background-color: #7969cb;
+}
+.bg-MCpurple {
+  background-color: #a86ab5;
+}
+.bg-MClight {
+  background-color: #bababa !important;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.navbar-light {
+  background-color: #1e162e !important;
+}
+.M-line-height {
+  line-height: 2;
+}
+.imgCenter {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 50% !important;
+  margin: auto;
+}
+.bottom-20 {
+  bottom: 20%;
+}
+p {
+  margin: 0;
+}
+.cursorPointer {
+  cursor: pointer;
+}
+.handelNav {
+  padding-top: 60px;
+}
+
+.transition{
+  transition: 0.5s;
+}

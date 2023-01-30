@@ -1,0 +1,186 @@
+header {
+  background-image: linear-gradient(  135deg ,#37588c , #3b3267 ,#673f70);
+  background-color: #1e162e;
+  h5 span:after{
+    content: "";
+    animation: typing 10s linear infinite ;
+    color: #43b5c2;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  @keyframes typing{
+    0% {
+        content: "|";
+    }
+    4% {
+        content: "D|";
+    }
+    6% {
+        content: "Dr|";
+    }
+    8% {
+        content: "Dra|";
+    }
+    10% {
+        content: "Draw|";
+    }
+    12% {
+        content: "Dra|";
+    }
+    14% {
+        content: "Dr|";
+    }
+    16% {
+        content: "D|";
+    }
+    18% {
+        content: "|";
+    }
+    20% {
+        content: "a|";
+    }
+    22% {
+        content: "an|";
+    }
+    24% {
+        content: "and|";
+    }
+    26% {
+        content: "an|";
+    }
+    28% {
+        content: "a|";
+    }
+    30% {
+        content: "|";
+    }
+    32% {
+        content: "P|";
+    }
+    34% {
+        content: "Pr|";
+    }
+    36% {
+        content: "Pri|";
+    }
+    38% {
+        content: "Prin|";
+    }
+    40% {
+        content: "Print|";
+    }
+    42% {
+        content: "Print |";
+    }
+    44% {
+        content: "Print 3|";
+    }
+    46% {
+        content: "Print 3D|";
+    }
+    48% {
+        content: "Print 3|";
+    }
+    50% {
+        content: "Print |";
+    }
+    52% {
+        content: "Print|";
+    }
+    54% {
+        content: "Prin|";
+    }
+    56% {
+        content: "Pri|";
+    }
+    58% {
+        content: "Pr|";
+    }
+    60% {
+        content: "P|";
+    }
+    62% {
+        content: "|";
+    }
+    64% {
+        content: "";
+    }
+  }
+  .headText{
+    button{
+      // background-image: linear-gradient(  135deg ,#4770b7 , #6657b1 ,#995fa6);
+      border: solid 2px #a86ab5 !important ;
+    }
+  }
+  @media screen and (max-width:992px) and (min-width:600px) {
+    background-image: url(../../../assets/Project/2/2.jpeg);
+    background-size: 100%;
+    .headImg{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width:600px) {
+    background-image: url(../../../assets/Project/2/3.jpeg);
+    background-size: cover;
+    background-position: center;
+    .headImg{
+      display: none !important;
+    }
+    .headText {
+      display: none;
+      // padding: 1rem;
+      // right: 0%;
+      // bottom: 0%;
+      // width: 100% !important;
+    }
+  }
+}
+h2 {
+  font-size: 3.5rem;
+  margin-top: 4.5rem !important;
+  margin-bottom: 4.5rem !important;
+  z-index: 0;
+}
+.backText {
+  z-index: -1;
+  font-size: 7rem;
+  color: #abb2b8;
+  opacity: 30%;
+  line-height: 1;
+}
+.btnStyle{
+  border: none;
+  outline:none;
+  background-color: transparent;
+  color: white;
+  overflow: hidden;
+  cursor:pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position:relative;
+  z-index: 5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .btnStyle span{
+    font-family: inherit;
+    position: relative;
+    z-index: 2;
+  }
+  .btnStyle::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 150%;
+    height: 160%;
+    background-color: #a86ab5;
+    z-index: 1;
+    transform-origin: bottom left;
+    transform: skew(40deg) translateX(-92%) translateY(40%);
+    transition: all 0.5s ease-in-out;
+  }
+  .btnStyle:hover::after{
+    color: white !important;
+    transform: skew(40deg) translateX(0%) translateY(10%);
+  }
